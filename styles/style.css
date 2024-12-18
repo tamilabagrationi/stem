@@ -21,3 +21,28 @@ header {
 a {
   text-decoration: none;
 }
+
+.image {
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.section2 div {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(139, 229, 13);
+  margin-right: 20px;
+}
+
+.batumi_image {
+  width: 300px;
+  height: 150px;
+}
