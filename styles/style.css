@@ -20,7 +20,6 @@ header {
 
 a {
   text-decoration: none;
-
 }
 
 .image {
@@ -40,8 +39,8 @@ a {
   width: 500px;
   height: 300px;
   background-color: rgb(139, 229, 13);
-  margin-right: 10px;
-  }
+  margin-right: 15px;
+}
 
 .batumi_image {
   width: 300px;
@@ -58,4 +57,22 @@ a {
   height: 30px;
   background-color: blue;
   display: inline-block;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input_element{
+  border: none;
+  border-bottom: solid 1px red;
+}
+
+.box1 {
+  margin-top: 20px;
+}
+
+.input_element1{
+  border: none;
+  border-bottom: dotted 1px red;
 }
